@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How many cars in the Blackmore garage?</title>
+    <link
+      rel="shortcut icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><path fill='none' d='M0 0h256v256H0z'/><path fill='%23015836' stroke='%23efb410' stroke-linecap='round' stroke-linejoin='round' stroke-width='16' d='M54.46 201.54c-9.2-9.2-3.1-28.53-7.78-39.85C41.82 150 24 140.5 24 128s17.82-22 22.68-33.69c4.68-11.31-1.42-30.65 7.78-39.85s28.54-3.1 39.85-7.78C106.05 41.82 115.5 24 128 24s22 17.82 33.69 22.68c11.32 4.68 30.65-1.42 39.85 7.78s3.1 28.53 7.78 39.85C214.18 106.05 232 115.5 232 128s-17.82 22-22.68 33.69c-4.68 11.32 1.42 30.65-7.78 39.85s-28.53 3.1-39.85 7.78C150 214.18 140.5 232 128 232s-22-17.82-33.69-22.68c-11.31-4.68-30.65 1.42-39.85-7.78Z'/><circle cx='128' cy='180' r='12' fill='%23efb410'/><path fill='none' stroke='%23efb410' stroke-linecap='round' stroke-linejoin='round' stroke-width='16' d='M128 144v-8c17.67 0 32-12.54 32-28s-14.33-28-32-28-32 12.54-32 28v4'/></svg>"
+      type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet" />
+
+    <style>
+      :root {
+        --color-1: #015836;
+        --color-2: #bf2b37;
+        --color-3: #eee3c6;
+        --color-4: #efb410;
+      }
+
+      * {
+        box-sizing: border-box;
+        font-family: "Libre Baskerville", Helvetica, Arial, serif;
+      }
+
+      body {
+        margin: 0;
+        background-color: var(--color-1);
+        color: var(--color-4);
+      }
+
+      main {
+        height: 100vh;
+        width: 100%;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .count-container {
+        font-size: clamp(1rem, 80vw, 30rem);
+        text-align: center;
+      }
+
+      .subtext {
+        font-size: clamp(1rem, 80vw, 2rem);
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <span class="count-container">1</span>
+      <span class="subtext">that&rsquo;s one&nbsp;car.</span>
+    </main>
+  </body>
+</html>
